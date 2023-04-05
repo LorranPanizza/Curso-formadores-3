@@ -1,39 +1,52 @@
 h1 {
-    text-align: center;
-    background-color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .menu {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .menu-icon {
-    font-size: 24px;
-    line-height: 24px;
-    cursor: pointer;
-  }
-  
-  .menu-choices {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 0;
-    list-style: none;
-  }
-  
-  .menu:hover .menu-choices {
-    display: block;
-  }
-  
-  .p1 { width: 50%;
-    height: 50%;
+  display: inline-block;
+  position: relative;
+}
 
-  }
+.menu-icon {
+  font-size: 24px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.menu-choices {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}
+
+.menu:hover .menu-choices {
+  display: block;
+}
+
+#ima1 {width: 10%;
+  height: 10%;
+  text-align: center;
+ 
+
+}
+
+#ima2 {width: 10%;
+  height: 10%;
+  
+
+}
+
+#ima3 {width: 10%;
+  height: 10%;
+
+}
 
   
