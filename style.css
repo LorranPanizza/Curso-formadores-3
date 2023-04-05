@@ -3,3 +3,31 @@ h1 {
     background-color: aqua;
     font-family: Arial, Helvetica, sans-serif;
 }
+.menu {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+  }
+  
+  .menu-choices {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .menu:hover .menu-choices {
+    display: block;
+  }
+  
